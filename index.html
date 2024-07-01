@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Agency</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header class="">
+    <nav class="navbar fixed-top  bg-dark text-white navbar-expand-lg ">
+      <div class="container-fluid  bg-dark">
+        <a class="" href="#home">Travel Agency</a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" style=" text-align: center;" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="#Destinations">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="#Tours">Tours</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="jumbotron jumbotron-fluid" id="home">
+    <div class="container text-center d-flex flex-column justify-content-center h-100">
+      <h1 class="display-4">Explorer le Senegal</h1>
+      <p class="lead">Decouver d'incroyables endroits avec nous.</p>
+      <div class="d-flex justify-content-center">
+        <a class="btn btn-lg" href="#Contact" role="button">En savoir plus</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Destinations Section-->
+    <section id="Destinations">
+      <br>
+      <div class="container my-4">
+        <h2 class="text-center my-4">Top Destinations</h2>
+        <div class="row pb-4">
+          <div class="col-md-4 pb-3">
+            <div class=" destination-card p-3 ">
+              <img src="../travelAgency/img/Femme-marchant-dans-les-rues-de-Gorée..jpg" class="card-img-top rounded"
+                alt="Explore Dakar and Gorée Island" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between pt-3">
+                  <h5 class="card-title">
+                    Ile de Gorée
+                  </h5>
+                  <button class="btn  btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                  </button>
+                </div>
+                <p class="card-text">Explorez l'île de Gorée, célèbre pour son histoire et sa beauté naturelle.</p>
+                <div class="d-flex align-items-center my-2">
+                  <div class="rating">
+                    <span class="badge bg-success me-1">Note : </span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                  </div>
+                </div>
+                <p class="badge bg-success me-1 card-text">
+                  Prix : <span class="price"> 159235</span> fcfa
+                </p>
+                <a href="#" class="btn  w-100">En savoir plus</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pb-3">
+            <div class=" destination-card p-3">
+              <img src="../travelAgency/img/hero.jpg" class="card-img-top rounded" alt="Explore Dakar and Gorée Island" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between pt-3">
+                  <h5 class="card-title">
+                    Lac rose
+                  </h5>
+                  <button class="btn  btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                  </button>
+                </div>
+                <p class="card-text">Explorez le Lac rose, célèbre pour son histoire et sa beauté naturelle.</p>
+                <div class="d-flex align-items-center my-2">
+                  <div class="rating">
+                    <span class="badge bg-success me-1">Note : </span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                  </div>
+                </div>
+                <p class="badge bg-success me-1 card-text">
+                  Prix : <span class="price"> 159235</span> fcfa
+                </p>
+                <a href="#" class="btn  w-100">En savoir plus</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pb-3">
+            <div class="p-3 destination-card">
+              <img src="../travelAgency/img/Mosquée-de-Touba-Sénégal.jpg" class="card-img-top rounded "
+                alt="Explore Dakar and Gorée Island" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between pt-3">
+                  <h5 class="card-title">
+                    Grande Mosquee de Touba
+                  </h5>
+                  <button class="btn  btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                  </button>
+                </div>
+                <p class="card-text">Explorez la Grande Mosquee de Touba, célèbre pour son histoire et sa beauté naturelle.</p>
+                <div class="d-flex align-items-center my-2">
+                  <div class="rating">
+                    <span class="badge bg-success me-1">Note : </span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                  </div>
+                </div>
+                <p class="badge bg-success me-1 card-text">
+                  Prix : <span class="price"> 159235</span> fcfa
+                </p>
+                <a href="#" class="btn  w-100">En savoir plus</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pb-4">
+          <div class="col-md-4 pb-3">
+            <div class="p-3 destination-card">
+              <img src="../travelAgency/img/le-village-des-tortues.jpg" class="card-img-top rounded"
+                alt="Explore Dakar and Gorée Island" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between pt-3">
+                  <h5 class="card-title">
+                    Village des tortues
+                  </h5>
+                  <button class="btn  btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                  </button>
+                </div>
+                <p class="card-text">Explorez le Village des tortues, célèbre pour son histoire et sa beauté naturelle.</p>
+                <div class="d-flex align-items-center my-2">
+                  <div class="rating">
+                    <span class="badge bg-success me-1">Note : </span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                  </div>
+                </div>
+                <p class="badge bg-success me-1 card-text">
+                  Prix : <span class="price"> 159235</span> fcfa
+                </p>
+                <a href="#" class="btn  w-100">En savoir plus</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pb-3">
+            <div class="p-3 destination-card">
+              <img src="../travelAgency/img/Parc-Zoologique-de-Hann1.jpg" class="card-img-top rounded"
+                alt="Explore Dakar and Gorée Island" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between pt-3">
+                  <h5 class="card-title">
+                    Parc Hann
+                  </h5>
+                  <button class="btn  btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                  </button>
+                </div>
+                <p class="card-text">Explorez le Parc Hann, célèbre pour son histoire et sa beauté naturelle.</p>
+                <div class="d-flex align-items-center my-2">
+                  <div class="rating">
+                    <span class="badge bg-success me-1">Note : </span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                  </div>
+                </div>
+                <p class="badge bg-success me-1 card-text">
+                  Prix : <span class="price"> 159235</span> fcfa
+                </p>
+                <a href="#" class="btn  w-100">En savoir plus</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pb-3">
+            <div class="p-3 destination-card">
+              <img src="../travelAgency/img/Plage-Saly.jpg" class="card-img-top rounded" alt="Explore Dakar and Gorée Island" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between pt-3">
+                  <h5 class="card-title">
+                    Plage de Sally
+                  </h5>
+                  <button class="btn  btn-favorite">
+                    <i class="fa-solid fa-heart"></i>
+                  </button>
+                </div>
+                <p class="card-text">Explorez la Plage de Sally, célèbre pour son histoire et sa beauté naturelle.</p>
+                <div class="d-flex align-items-center my-2">
+                  <div class="rating">
+                    <span class="badge bg-success me-1">Note : </span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                  </div>
+                </div>
+                <p class="badge bg-success me-1 card-text">
+                  Prix : <span class="price"> 159235</span> fcfa
+                </p>
+                <a href="#" class="btn  w-100">En savoir plus</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Tours Section -->
+    <section id="Tours">
+      <br>
+      <div class="container my-4">
+        <h2 class="text-center">Nos Tours</h2>
+        <div class="accordion" id="toursAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Visite Guidee
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#toursAccordion">
+              <div class="accordion-body">
+                Découvrez les paysages époustouflants et les ambiances uniques d'une Visite Guidee. Des paysages sereins
+                aux centres urbains animés, ce forfait offre un voyage inoubliable. <a href="#">Voir les détails</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                villages anciens
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#toursAccordion">
+              <div class="accordion-body">
+                Embarquez pour une aventure avec villages anciens Découvrez la richesse culturelle et les merveilles
+                naturelles à chaque coin de rue. <a href="#">Voir les détails</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Plage
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#toursAccordion">
+              <div class="accordion-body">
+                Plongez dans l'aventure avec les Plage. Explorez des destinations exotiques et profitez de
+                moments uniques. <a href="#">Voir les détails</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact Form -->
+    <br>
+    <section id="Contact">
+      <br>
+      <div class="container my-4">
+        <h2 class="text-center">Contactez-nous</h2>
+        <div class="">
+          <div class="card-body">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="name" placeholder="Entrez votre nom" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Entrez votre email" required>
+              </div>
+              <div class="mb-3">
+                <label for="destination" class="form-label">Destination d'intérêt</label>
+                <input type="text" class="form-control" id="destination" placeholder="Entrez la destination">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Entrez votre message"
+                  required></textarea>
+              </div>
+              <button type="submit">Envoyer</button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="d-flex justify-content-center align-items-center flex-column bg-dark text-white p-3">
+      <div class="d-flex justify-content-center align-items-center flex-column text-center text-md-start">
+        <div class="row">
+          <div class="row-md-4 mx-auto d-flex justify-content-center align-items-center flex-column ">
+            <a class="logo"> Travel Agency</a>
+            <br>
+            <ul class="d-flex align-items-center justify-content-center flex-row list-unstyled flex-wrap" >
+              <li><a href="#home" class="">Home</a></li>
+              <li><a href="#Destinations" class="">Destinations</a></li>
+              <li><a href="#Tours" class="">Tours</a></li>
+              <li><a href="#Contact" class="">Contact</a></li>
+            </ul>
+            <div class="">
+              <i class="fa-brands fa-facebook m-3"></i>
+              <i class="fa-brands fa-square-instagram  m-3"></i>
+              <i class="fa-brands fa-twitter  m-3"></i>
+            </div>
+          </div>
+          <hr>
+          <div class="row-md-4 mx-auto d-flex align-items-center justify-content-center ">
+            <div class=" mt-md-0 mt-3">
+              <p>&copy; 2024. Futurs développeurs. Tous droits réservés.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
